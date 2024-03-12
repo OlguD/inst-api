@@ -1,0 +1,9 @@
+requests
+pymongo
+attrs
+Pillow
+Jinja2
+packaging
+typing_extensions
+Flask
+ensta

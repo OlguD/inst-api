@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Faktörlü Doğrulama</title>
+    <link href="{{ url_for('static', filename='two_factor_style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Login Code</h1>
+        <p>
+            Enter the 6-digit login code from an authentication app.
+            This could be Duo Mobile, Google Authenticator or a different app you set up manually.
+        </p>
+        <form id="verificationForm">
+            <div class="input-group">
+                <input type="text" name="code1" maxlength="1" class="digit" required>
+                <input type="text" name="code2" maxlength="1" class="digit" required>
+                <input type="text" name="code3" maxlength="1" class="digit" required>
+                <input type="text" name="code4" maxlength="1" class="digit" required>
+                <input type="text" name="code5" maxlength="1" class="digit" required>
+                <input type="text" name="code6" maxlength="1" class="digit" required>
+            </div>
+            <button type="submit" class="btn-confirm">Confirm</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
