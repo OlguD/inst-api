@@ -9,6 +9,8 @@ Provides database to register users and track their activity.
 
 It allows you to use session data for back-to-back or intermittent transactions without the need to log in again, and with a 12-hour cooldown when making requests to each endpoint, it allows you to avoid instagram knowing you're acting suspiciously.
 
+![Flowchart](https://github.com/OlguD/inst-api/blob/main/flowchart.png)
+
 
 I look forward to you contributing to this repository, there's a lot to do.
 
