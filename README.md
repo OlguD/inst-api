@@ -14,9 +14,6 @@ I look forward to you contributing to this repository, there's a lot to do.
 
 
 
-Translated with DeepL.com (free version)
-
-
 ## API Reference
 
 #### Checks if the session still valid
