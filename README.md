@@ -199,3 +199,14 @@ return jsonify({'status': 'ok', 'msg': 'User unfollowed'})
 | Parameter | Type     | 
 | :-------- | :------- |
 | `username, target_username`      | `string` |
+
+
+
+---
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/OlguD/inst-api/blob/main/LICENSE) file for details.
+
+## Acknowledgements
+
+This project uses code from [ENSTA](https://github.com/diezo/Ensta), which is licensed under the MIT License.
